@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Holanda Junior" />
+		<meta name="description" content="Layout 2" />
+		<title>Pagina Pessoal</title>
+
+		<link rel="stylesheet" href="style/style.css" media="screen" />
+	</head>
+	<body>
+
+		<div id="geral"><!-- Div geral do site -->
+			
+			<header id="header">	<!-- Header principal -->
+				<hgroup>
+					<h1> <a href="#">Holanda Junior</a></h1>
+					<h3>Logotipo</h3>
+				</hgroup>
+				
+			</header>	<!-- Fim header principal -->
+
+			<div id="conteudo">
+
+				<section id="esquerda" class="esquerda">		<!-- Seção de conteudo esquerdo -->
+					
+					<h3 id="t-menu-esq">Menu</h3>
+					
+					<nav id="menu-esquerdo">
+						<ul>
+							<li><a href="#"> HTML(11) </a></li>
+							<li><a href="#"> CSS(2) </a></li>
+							<li><a href="#"> JAVA(20) </a></li>
+							<li><a href="#"> C++(15) </a></li>
+							<li><a href="#"> JavaScript(17) </a></li>
+						</ul>
+					</nav>
+
+				</section>		<!-- Fim seção de conteudo esquerdo -->
+
+				<section id="meio" class="esquerda"> <!-- Seção de conteudo do meio -->
+					
+					<article>
+
+					</article>
+				</section> <!-- Fim seção conteudo meio -->
+
+				<aside id="direita" class="direita"> <!-- Seção de conteudo direito -->
+					
+					<section>
+					
+						<h3>Conteudo relacionado</h3>
+					
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+							
+					</section>
+					
+				</aside> <!-- Fim seção conteudo direito -->
+
+				<div id="clear"></div>
+
+			</div>
+			
+			<footer id="footer"> <!-- Footer principal -->
+				
+				Rodape
+				
+			</footer> <!-- Fim footer principal -->
+
+		</div>	<!-- Fim Div geral -->
+
+	</body>
+</html>

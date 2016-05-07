@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Holanda Junior" />
+		<meta name="description" content="Layout 2" />
+		<title>Pagina Pessoal</title>
+
+		<link rel="stylesheet" href="style/style.css" media="screen" />
+	</head>
+	<body>
+
+		<div id="geral"><!-- Div geral do site -->
+			
+			<header id="header">	<!-- Header principal -->
+				<hgroup>
+					<h1> <a href="#">Holanda Junior</a></h1>
+					<h3>Logotipo</h3>
+				</hgroup>
+				
+			</header>	<!-- Fim header principal -->
+
+			<div id="conteudo">
+
+				<section id="esquerda" class="esquerda">		<!-- Seção de conteudo esquerdo -->
+					
+					<h3 id="t-menu-esq">Menu</h3>
+					
+					<nav id="menu-esquerdo">
+						<ul>
+							<li><a href="#"> HTML(11) </a></li>
+							<li><a href="#"> CSS(2) </a></li>
+							<li><a href="#"> JAVA(20) </a></li>
+							<li><a href="#"> C++(15) </a></li>
+							<li><a href="#"> JavaScript(17) </a></li>
+						</ul>
+					</nav>
+
+				</section>		<!-- Fim seção de conteudo esquerdo -->
+
+				<section id="meio" class="esquerda"> <!-- Seção de conteudo do meio -->
+					
+					<article>
+						<section>
+							<h1>O problema: conexões de baixa latência de cliente-servidor e servidor-cliente</h1>
+							
+							<p>
+							A web tem sido construída com base no conhecido paradigma de solicitação/resposta de HTTP. 
+							Um cliente carrega uma página da web e, em seguida, nada acontece até que o usuário clique na próxima página. 
+							Por volta de 2005, o AJAX começou a deixar a web mais dinâmica. 
+							Mesmo assim, toda a comunicação HTTP era direcionada pelo cliente, o que exigia interação do usuário ou sondagem periódica para carregar novos dados do servidor.
+							</p>
+							
+							<p>
+							As tecnologias que permitem que o servidor envie dados ao cliente no mesmo momento em que constata que novos dados estão disponíveis foram usadas por algum tempo. 
+							Elas eram conhecidas por nomes como "Push" ou "Comet". 
+							Um dos problemas mais comuns para criar a ilusão de uma conexão iniciada pelo servidor é a chamada sondagem longa. 
+							Com a sondagem longa, o cliente abre uma conexão HTTP com o servidor que permanece aberta até que a resposta seja enviada. 
+							Sempre que tem novos dados, o servidor envia a resposta (outras técnicas envolvem Flash, solicitações XHR multipart e os chamados htmlfiles). 
+							A sondagem longa e as outras técnicas funcionam muito bem. Você as utiliza todos os dias em aplicativos como o chat do Gmail.
+							</p>
+							
+							<p>
+							No entanto, todas essas soluções compartilham um problema: elas carregam a sobrecarga de HTTP, que não é adequada para aplicativos de baixa latência. 
+							Pense em jogos com vários jogadores no navegador ou em qualquer outro jogo on-line com um componente em tempo real.
+							</p>
+						
+						</section>
+						<section>	
+							<h1>Apresentando WebSocket: trazendo soquetes para a web</h1>
+							
+							<p>
+							A especificação WebSocket define uma API que estabelece conexões de "soquete" entre um navegador da web e um servidor. Em outras palavras, há uma conexão persistente entre o cliente e o servidor e ambas as partes podem começar a enviar dados a qualquer momento.					
+							</p>
+						
+						</section>
+						<section>
+							<h1>O problema: conexões de baixa latência de cliente-servidor e servidor-cliente</h1>
+							
+							<p>
+							A web tem sido construída com base no conhecido paradigma de solicitação/resposta de HTTP. 
+							Um cliente carrega uma página da web e, em seguida, nada acontece até que o usuário clique na próxima página. 
+							Por volta de 2005, o AJAX começou a deixar a web mais dinâmica. 
+							Mesmo assim, toda a comunicação HTTP era direcionada pelo cliente, o que exigia interação do usuário ou sondagem periódica para carregar novos dados do servidor.
+							</p>
+							
+							<p>
+							As tecnologias que permitem que o servidor envie dados ao cliente no mesmo momento em que constata que novos dados estão disponíveis foram usadas por algum tempo. 
+							Elas eram conhecidas por nomes como "Push" ou "Comet". 
+							Um dos problemas mais comuns para criar a ilusão de uma conexão iniciada pelo servidor é a chamada sondagem longa. 
+							Com a sondagem longa, o cliente abre uma conexão HTTP com o servidor que permanece aberta até que a resposta seja enviada. 
+							Sempre que tem novos dados, o servidor envia a resposta (outras técnicas envolvem Flash, solicitações XHR multipart e os chamados htmlfiles). 
+							A sondagem longa e as outras técnicas funcionam muito bem. Você as utiliza todos os dias em aplicativos como o chat do Gmail.
+							</p>
+							
+							<p>
+							No entanto, todas essas soluções compartilham um problema: elas carregam a sobrecarga de HTTP, que não é adequada para aplicativos de baixa latência. 
+							Pense em jogos com vários jogadores no navegador ou em qualquer outro jogo on-line com um componente em tempo real.
+							</p>
+						
+						</section>
+						<section>	
+							<h1>Apresentando WebSocket: trazendo soquetes para a web</h1>
+							
+							<p>
+							A especificação WebSocket define uma API que estabelece conexões de "soquete" entre um navegador da web e um servidor. Em outras palavras, há uma conexão persistente entre o cliente e o servidor e ambas as partes podem começar a enviar dados a qualquer momento.					
+							</p>
+						
+						</section>
+					</article>
+				</section> <!-- Fim seção conteudo meio -->
+
+				<aside id="direita" class="direita"> <!-- Seção de conteudo direito -->
+					
+					<section>
+					
+						<h3>Conteudo relacionado</h3>
+					
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+						conteudo relacionado <br>
+							
+					</section>
+					
+				</aside> <!-- Fim seção conteudo direito -->
+
+				<div id="clear"></div>
+
+			</div>
+			
+			<footer id="footer"> <!-- Footer principal -->
+				
+				Rodape
+				
+			</footer> <!-- Fim footer principal -->
+
+		</div>	<!-- Fim Div geral -->
+
+	</body>
+</html>

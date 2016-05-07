@@ -1,0 +1,89 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background: black url("../imagens/bg2.jpg") no-repeat top center;
+}
+
+
+#geral{
+	width: 780px;
+	margin: 0 auto;
+}
+
+header{
+	height: 300px;
+}
+
+header ul{
+	list-style: none;
+}
+
+header ul li{
+	float:left;
+	display: inline;
+}
+
+header ul a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+header ul a:hover{
+	background: black;
+	color: white;
+}
+
+
+#galeria, #conteudoPrincipal{
+	min-height: 150px;
+}
+
+#conteudo{
+	background: rgba(0,0,0, 0.1);
+	padding: 2%;
+}
+
+#galeria{
+	width: 40%;
+	float: left;
+	margin-right: 10%;
+}
+
+
+
+#galeria ul li img{
+	width: 100%;
+}
+
+#galeria ul li{
+	float: left;
+	display: inline-block;
+	width: 48%;
+	margin-right: 2%; 
+	position: relative;
+}
+
+img + span{
+	position:absolute;
+	color: white;
+	bottom: 0;
+	background: rgba(0,0,0, 0.6);
+	padding: 5px;
+}
+
+
+#conteudoPrincipal{
+	width: 50%;
+	float: left;
+	color: white;
+}
+
+footer{
+	clear: both;
+	background: transparent url("../imagens/rambling.jpg") no-repeat top left;
+	height: 164px;
+}

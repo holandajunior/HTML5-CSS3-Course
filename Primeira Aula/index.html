@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Pagina Primeira Aula </title>
+		<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+	</head>
+
+	<body>
+
+		<form action="" method="post">
+
+			<table>
+				<tr>
+					<th>Nome Completo</th>
+					<td><input type="text" list="nomes" name="in-nome" required />
+						
+						<datalist id="nomes">
+							<option value="Catiroba"></option>
+							<option value="Astrogilda"></option>
+							<option value="Holanda"></option>
+							<option value="Junior"></option>
+							<option value="Guilherme"></option>
+						</datalist>
+						
+					</td>
+				</tr>
+				<tr>
+					<th>Telefone</th>
+					<td>
+						<input type="tel" name="in-tel" required pattern="\([1-9]{2}\)[\s][1-9]{4}-[0-9]{4}" placeholder="(xx) xxxx-xxxx" />
+						<span>Por favor, preencha corretamente. O formato é (xx) xxxx-xxxx</span>
+					</td>
+				</tr>
+				<tr>
+					<th>E-mail</th>
+					<td><input type="email" name="in-name" required/></td>
+				</tr>
+				<tr>
+					<th>Hora</th>
+					<td><input type="time" name="in-hora" /></td>
+				</tr>
+				<tr>
+					<th>Data</th>
+					<td><input type="date" name="in-data" min="2011-12-31"/></td>
+				</tr>
+				<tr>
+					<th></th>
+					<td><input type="submit" value="Enviar" /></td>
+				</tr>
+				
+			</table>
+
+
+
+		</form>
+
+		<br/>
+
+		<table>
+			<thead>
+				<th>Curso</th>
+				<th>Descrição</th>
+			</thead>
+			<tr>
+				<td>HTML 5 e CSS 3</td>
+				<td>Curso para estudo de HTML 5 e CSS 3</td>
+			</tr>
+		</table>
+		
+	</body>
+
+</html>
+
